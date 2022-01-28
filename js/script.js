@@ -30,6 +30,8 @@ function blackjackHit(){
     showcard(index,you);
     updateScore(index,you);
     showScore(you);
+    if(you['score']>21)
+      dealerlogic();
 
 }
 }
