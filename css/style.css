@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgb(233, 233, 173);
+}
+
+.flex-box-blackjack-1,.flex-box-blackjack-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+
+.flex-box-blackjack-1{
+    background: url(../img/poker.jpg) center;
+    color: white;
+}
+.flex-box-blackjack-1 div{
+    height:350px;
+    flex:1;
+}
+
+.flex-box-blackjack-1 img{
+   width: 20%;
+   padding:10px;
+}
+
+.flex-box-blackjack-2{
+    /* display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    border: 1px solid black;
+    padding: 10px;
+    background: url(../img/poker.jpg);
+    color: white;
+}
+
+.flex-box-blackjack-2 button{
+    border: 1px solid black;
+    margin: 4px;
+}
+
+table, table th, table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+/* font   styling */
+
